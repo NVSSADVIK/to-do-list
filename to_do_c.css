@@ -1,0 +1,46 @@
+body{
+    background-color:#9593D9;
+}
+header{
+    height: 100px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-size: 44px;
+    font-family: "Comfortaa", sans-serif;
+    
+}
+.total form{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+input[type="text"]{
+    background-color: #F4EDEA;
+    color: black;
+    width: 500px;
+    height: 30px;
+    padding: 10px;
+    padding-left: 50px;
+    font-family: "Comfortaa", sans-serif;
+    border: none;
+    border-radius: 50px;
+}
+input[type="submit"],button[type="button"] {
+    padding: 10px 20px;
+     cursor: pointer;
+}
+input[type="text"]:focus{
+    outline: none;
+    border: 2px solid black;
+    
+}
+.k{
+    border-radius: 50px;
+    border: none;
+}
+.k:focus{
+    outline: none;
+}
